@@ -1,0 +1,129 @@
+@import url("./assets/fonts/fonts.css");
+
+body {
+  max-width: 1020px;
+  font-family: "Lato", Arial, sans-serif;
+  color: #f0d8d9;
+}
+
+.bg-wrap {
+  height: 724px;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #f06c64;
+}
+
+.quote-wrap {
+  border-bottom: 6px solid #ea676b;
+}
+
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.common-container {
+  margin: 0 40px 0 40px;
+}
+
+.quote-section {
+  height: 642px;
+}
+
+.quote-header {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: justify;
+  margin-top: 70px;
+  margin-left: 8px;
+  letter-spacing: -0.03em;
+}
+
+.quote-description {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 30px;
+  text-align: justify;
+  margin-left: 8px;
+  margin-right: -8px;
+}
+
+.quote-form {
+  display: grid;
+  grid-template-columns: 650px 301px;
+  grid-template-rows: 370px;
+  margin-top: 43px
+}
+
+.quote-form-name,
+.quote-form-mail,
+.quote-form-subject,
+.quote-form-submit {
+  width: 619px;
+  background-color: #d6564f;
+  border-radius: 5px;
+  margin-left: 8px;
+  border: none;
+  height: 36px;
+}
+
+.quote-form-message {
+  height: 198px;
+  resize: none;
+  width: 615px;
+  background-color: #d6564f;
+  border-radius: 5px;
+  margin-left: 8px;
+  border: none;
+}
+
+.quote-form-mail,
+.quote-form-subject,
+.quote-form-message,
+.quote-form-submit {
+ margin-top: 16px;
+}
+
+input,
+textarea {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 12px;
+  padding-left: 16px;
+  color: #f48c8f;
+  text-align: justify;
+}
+
+textarea {
+  padding-top: 9px;
+}
+
+.quote-form-name::placeholder,
+.quote-form-mail::placeholder,
+.quote-form-subject::placeholder,
+.quote-form-message::placeholder {
+  color: #f48c8f;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: justify;
+}
+
+.quote-form-submit {
+  color: #f48c8f;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+
+
+.footer-wrap {
+  background-color: #2d303a;
+  height: 76px;
+}
+
+.copyright {
+  margin-top: 0;
+}
