@@ -1,13 +1,10 @@
 @import url("./assets/fonts/fonts.css");
 
 body {
-  /* width: 1020px; */
   font-family: "Lato", Arial, sans-serif;
 }
 
 .bg-wrapper {
-  /* width: 100vw; */
-  overflow-x: hidden;
   background-color: #f06c64;
 }
 
@@ -239,7 +236,6 @@ h5 {
 }
 
 .bg-portfolio-wrapper {
-  /* width: 100vw; */
   overflow-x: hidden;
   background-color: #2d303a;
   color: #767e9e;
@@ -418,8 +414,6 @@ h6 {
 }
 
 .bg-wrap {
-  /* width: 100vw; */
-  overflow-x: hidden;
   background-color: #f06c64;
   color: #f0d8d9;
 }
@@ -599,5 +593,4 @@ a {
 
 .footer .social {
   margin-top: -16px;
-  margin-right: 8px;
 }
