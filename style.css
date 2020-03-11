@@ -1,12 +1,12 @@
 @import url("./assets/fonts/fonts.css");
 
 body {
-  width: 1020px;
+  /* width: 1020px; */
   font-family: "Lato", Arial, sans-serif;
 }
 
 .bg-wrapper {
-  width: 100vw;
+  /* width: 100vw; */
   overflow-x: hidden;
   background-color: #f06c64;
 }
@@ -50,7 +50,6 @@ h5 {
 .navbar {
   display: inline-block;
   margin-top: 31px;
-  margin-right: 9px;
 }
 
 .navbar ul {
@@ -118,7 +117,7 @@ h5 {
 }
 
 .right {
-  right: 8px;
+  right: 1px;
 }
 
 .left {
@@ -134,7 +133,7 @@ h5 {
 .horizontal-iphone {
   position: absolute;
   top: 157px;
-  right: 39px;
+  right: 31px;
 }
 
 .services-wrapper {
@@ -190,7 +189,10 @@ h5 {
   line-height: 22px;
   text-align: justify;
   margin-top: 9px;
+  padding-bottom: 6px;
   letter-spacing: -0.02em;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .service-description h5 {
@@ -237,7 +239,7 @@ h5 {
 }
 
 .bg-portfolio-wrapper {
-  width: 100vw;
+  /* width: 100vw; */
   overflow-x: hidden;
   background-color: #2d303a;
   color: #767e9e;
@@ -254,7 +256,7 @@ h6 {
 }
 
 .common-container {
-  margin: 0 40px 0 32px;
+  margin: 0 40px 0 40px;
 }
 
 .portfolio-section {
@@ -416,7 +418,7 @@ h6 {
 }
 
 .bg-wrap {
-  width: 100vw;
+  /* width: 100vw; */
   overflow-x: hidden;
   background-color: #f06c64;
   color: #f0d8d9;
