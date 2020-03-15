@@ -6,11 +6,16 @@ body {
 
 .bg-wrapper {
   background-color: #f06c64;
+  max-width: 1020px;
+  margin: 0 auto;
 }
 
 .header-wrapper {
   background-color: #2d303a;
   border-bottom: 6px solid #323746;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .header {
@@ -75,7 +80,8 @@ h5 {
   font-weight: 700;
 }
 
-.navbar ul li a:hover {
+.navbar ul li a:hover,
+.navbar ul li .active {
   color: #f06c64;
 }
 
@@ -93,17 +99,14 @@ h5 {
 }
 
 .slider-wrapper {
+  margin: 0 40px 0 40px;
   height: 594px;
   background-color: #f06c64;
   border-bottom: 6px solid #ea676b;
+  position: relative;
 }
 
-.center {
-  max-width: 1020px;
-  margin: 0 auto;
-}
-
-.slider {
+.slider-1 {
   position: relative;
 }
 
@@ -111,6 +114,11 @@ h5 {
   position: absolute;
   top: 281px;
   cursor: pointer;
+  opacity: 0.5;
+}
+
+.slider-obj:hover {
+  opacity: 1;
 }
 
 .right {
@@ -121,16 +129,35 @@ h5 {
   left: 1px;
 }
 
-.vertical-iphone {
+.slider-2 img {
+  margin-left: -40px;
+  height: 606px;
+  width: 1020px;
+}
+
+.vertical-iphone,
+.vertical-iphone-black {
   position: absolute;
   top: 37px;
   left: 32px;
 }
 
-.horizontal-iphone {
+.display-none {
+  display: none;
+}
+
+.horizontal-iphone,
+.horizontal-iphone-black {
   position: absolute;
   top: 157px;
   right: 31px;
+}
+
+.vertical-iphone:hover,
+.horizontal-iphone:hover,
+.vertical-iphone-black:hover,
+.horizontal-iphone-black:hover {
+  cursor: pointer;
 }
 
 .services-wrapper {
